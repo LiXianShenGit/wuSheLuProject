@@ -105,4 +105,15 @@
         </repository>
     </repositories>
 
+    <!-- 全局profiles配置 -->
+    <profiles>
+        <profile>
+            <id>local</id>
+            <properties>
+                <profileActive>local</profileActive>
+            </properties>
+        </profile>
+    </profiles>
+
+
 </project>
